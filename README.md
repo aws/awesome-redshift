@@ -4,6 +4,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 - [Awesome Redshift](#awesome-redshift)
     - [Workshops](#workshops)
+    - [Connectors and Drivers](#connectors-and-drivers)
     - [Performance Tuning](#performance-tuning)
     - [Operations](#operations)
     - [UDFs](#udfs)
@@ -27,8 +28,15 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 * [Amazon Redshift Deep Dive Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/380e0b8a-5d4c-46e3-95a8-82d68cf5789a/en-US) - A hands-on workshop covering topics such as: Data API, Spectrum,  Redshift ML, Lambda UDF, Query federation, SageMaker, Apache Hudi, QuickSight, PowerBI, Oracle/SQL Server migrations.
 * [Redshift Immersion Labs Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US) - A hands-on workshop covering topics such as: ELT, Materialized Views, Data Sharing, and Redshift ML
-* [ETL and Anaysis Workshop](https://redshift-analytics.workshop.aws/) - A hands-on workshop building ETL using Redshift, StepFunctions and Glue and Analytics using Redshift, Quicksight and SageMaker. 
 
+## Connectors and Drivers
+*Redshift connectors and drivers*
+* [Amazon Redshift Python Driver](https://github.com/aws/amazon-redshift-python-driver) - Amazon Redshift's connector for Python
+* [Amazon Redshift JDBC driver](https://docs.aws.amazon.com/redshift/latest/mgmt/jdbc20-download-driver.html) - Amazon Redshift JDBC driver version 2.1
+* [Amazon Redshift ODBC driver](https://docs.aws.amazon.com/redshift/latest/mgmt/odbc20-install.html) - Amazon Redshift ODBC driver 
+* [Amazon Redshift Integration with Apache Spark on EMR and Glue](https://aws.amazon.com/blogs/aws/new-amazon-redshift-integration-with-apache-spark/) - Connecting to Redshift from Amazon EMR 6.9, EMR Serverless, and AWS Glue 4.0
+* [Redshift Data Source for Apache Spark - Community Edition](https://github.com/spark-redshift-community/spark-redshift) - Connecting to Redshift from Apache Spark - community edition
+* [Query Amazon Redshift with Databricks](https://docs.databricks.com/external-data/amazon-redshift.html) - Connecting to Redshift from Databricks Runtime
 
 ## Performance Tuning
 
