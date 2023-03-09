@@ -13,7 +13,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
     - [Federated Queries](#federated-queries)
     - [Streaming Ingestion](#streaming-ingestion)
     - [Integarions](#integrations)
-    - [Single Sign On](#sso)
+    - [Single Sign On (SSO)](#single-sign-on-sso)
     - [CI/CD](#cicd)
 - [General Resources](#general-resources)
 - [Contributing](#contributing)
