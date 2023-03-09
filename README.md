@@ -54,7 +54,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 *Tools and scripts to automate management and operations of Redshift.*
 
-* [Redshift Stored Procedures](https://github.com/aws-samples/amazon-redshift-udfs/tree/master/stored-procedures) - A collection of stored procedures to perform common data tasks, such as integrity, permissions, and changing your data model.
+* [Redshift Stored Procedures](https://github.com/aws-samples/amazon-redshift-udfs/tree/master/stored-procedures) - A collection of stored procedures to perform common data tasks, such as integrity checks, permissions, and changing your data model.
 * [Redshift Automation](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/RedshiftAutomation) - A library to automate common tasks using CloudWatch events and Lambda. 
 * [QMR Notifications Utility](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/QMRNotificationUtility) - A library to set SNS notifications for changes in WLM Query Monitoring Rules (QMR)
 
