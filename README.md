@@ -13,6 +13,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
     - [Federated Queries](#federated-queries)
     - [Streaming Ingestion](#streaming-ingestion)
     - [Integarions](#integrations)
+    - [Single Sign On](#sso)
     - [CI/CD](#cicd)
 - [General Resources](#general-resources)
 - [Contributing](#contributing)
@@ -95,11 +96,15 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 * [Execute Amazon Redshift Commands using AWS Glue](https://github.com/aws-samples/amazon-redshift-commands-using-aws-glue) - A library to use a AWS Glue Python Shell Job to execute SQL scripts on Amazon Redshift.
 * [Amazon Redshift User Defined Functions to call Amazon Location Service APIs](https://github.com/aws-samples/amazon-redshift-location-user-defined-functions) - A library using Lambda-based User Defined Functions (UDF) to call Amazon Location Service APIs.
 * [Using DBT with Amazon Redshift workshop](https://catalog.workshops.aws/dbt-cli-and-amazon-redshift/en-US) - A hands on workshop on integrating [DBT](https://github.com/dbt-labs/dbt-redshift) and Redshift.
-* Single sign-on (SSO)
-    - [Integrate Amazon Redshift with Microsoft Azure AD](https://aws.amazon.com/blogs/big-data/integrate-amazon-redshift-native-idp-federation-with-microsoft-azure-ad-using-a-sql-client/) - A blog post describing how to integrate Amazon Redshift native IdP federation with Microsoft Azure AD using a SQL client
-    - [Federate Amazon Redshift access with Microsoft Azure AD single sign-on](https://aws.amazon.com/blogs/big-data/federate-amazon-redshift-access-with-microsoft-azure-ad-single-sign-on/) - A blog post describing how to federate Amazon Redshift access with Microsoft Azure AD single sign-on
-    - [Federate single sign-on access to Amazon Redshit with Okta](https://aws.amazon.com/blogs/big-data/federate-single-sign-on-access-to-amazon-redshift-query-editor-v2-with-okta/) - A blog post describing how to federate single sign-on access to Amazon Redshift query editor v2 with Okta.
-    - [Federate access to your Amazon Redshift cluster with Active Directory Federation Services](https://aws.amazon.com/blogs/big-data/federate-access-to-your-amazon-redshift-cluster-with-active-directory-federation-services-ad-fs-part-1/) - A 3-part blog post describing how to federate access to Amazon Redshift cluster with Active Directory Federation Services (AD FS).
+
+## Single sign on (SSO)
+
+*Integration with SSO providers*
+
+* [Integrate Amazon Redshift with Microsoft Azure AD](https://aws.amazon.com/blogs/big-data/integrate-amazon-redshift-native-idp-federation-with-microsoft-azure-ad-using-a-sql-client/) - A blog post describing how to integrate Amazon Redshift native IdP federation with Microsoft Azure AD using a SQL client
+* [Federate Amazon Redshift access with Microsoft Azure AD single sign-on](https://aws.amazon.com/blogs/big-data/federate-amazon-redshift-access-with-microsoft-azure-ad-single-sign-on/) - A blog post describing how to federate Amazon Redshift access with Microsoft Azure AD single sign-on
+* [Federate single sign-on access to Amazon Redshit with Okta](https://aws.amazon.com/blogs/big-data/federate-single-sign-on-access-to-amazon-redshift-query-editor-v2-with-okta/) - A blog post describing how to federate single sign-on access to Amazon Redshift query editor v2 with Okta.
+* [Federate access to your Amazon Redshift cluster with Active Directory Federation Services](https://aws.amazon.com/blogs/big-data/federate-access-to-your-amazon-redshift-cluster-with-active-directory-federation-services-ad-fs-part-1/) - A 3-part blog post describing how to federate access to Amazon Redshift cluster with Active Directory Federation Services (AD FS).
 
 ## CI/CD
 
