@@ -15,6 +15,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
     - [Integarions](#integrations)
     - [Single Sign On (SSO)](#single-sign-on-sso)
     - [CI/CD](#cicd)
+    - [Redshift Internals](#redshift-internals)
 - [General Resources](#general-resources)
 - [Contributing](#contributing)
 
@@ -115,6 +116,10 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 * [Terraform Redshift Example Module](https://github.com/cloudposse/terraform-aws-redshift-cluster) - A template repository to deploy Redshift using [Terraform](https://www.terraform.io/) 
 * [CDK Redshift Project](https://constructs.dev/packages/cdk-stepfunctions-redshift/) - An AWS Cloud Development Kit (CDK) [construct](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html) to run SQL in Redshift using [AWS Step Functions](https://aws.amazon.com/step-functions)
 
+## Redshift Internals
+*Redshift's internal architecture and design*
+* [Amazon Redshift Re-invented](https://www.amazon.science/publications/amazon-redshift-re-invented) - A paper outlining Redshift's internal system architecture, data organization, and query
+processing flow.
 
 # General Resources
 
