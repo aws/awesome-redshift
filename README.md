@@ -5,7 +5,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 - [Awesome Redshift](#awesome-redshift)
     - [Workshops](#workshops)
     - [Key Features](#key-features)
-        - [Serverless](#serverless)
+        - [Amazon Redshift Serverless](#amazon-redshift-serverless)
         - [Data Sharing](#data-sharing)
         - [Data APIs](#data-apis)
         - [Federated Queries](#federated-queries)
@@ -17,9 +17,11 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
     - [Operations](#operations)
     - [Integrations](#integrations)
     - [Security and Authentication](#security-and-authentication)
+        - [General Security](#general-security)
         - [Single Sign On (SSO)](#single-sign-on-sso)
         - [Role Based Access Control (RBAC)](#role-based-access-control-rbac)
         - [Row Level Security (RLS)](#row-level-security-rls)
+    - [Cost Optimization](#cost-optimization)
     - [CI/CD](#cicd)
     - [Redshift Internals](#redshift-internals)
 - [General Resources](#general-resources)
@@ -36,16 +38,17 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 ## Key Features
 
-### Serverless
+### Amazon Redshift Serverless
 *[Amazon Redshift Serverless](#https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-whatis.html) resources*
-* [Amazon Redshift Serverless RSQL ETL Framework](https://github.com/aws-samples/amazon-redshift-serverless-rsql-etl-framework) - A serverless ETL framework
-* [Self-service analytics with Amazon Redshift Serverless](https://www.youtube.com/watch?v=zGTxxOk4cBk) - A recorded session on getting started and best practices with serverelss    
+* [Amazon Redshift Serverless RSQL ETL Framework](https://github.com/aws-samples/amazon-redshift-serverless-rsql-etl-framework) - A Serverless ETL framework
+* [Self-service analytics with Amazon Redshift Serverless](https://www.youtube.com/watch?v=zGTxxOk4cBk) - A recorded session on getting started and best practices with Redshift Serverelss    
 
 ### Data Sharing
 
 *[Data Sharing](https://docs.aws.amazon.com/redshift/latest/dg/datashare-overview.html) for sharing data between Redshift clusters*
 
 * [Seamless Data Sharing Using Amazon Redshift](https://catalog.us-east-1.prod.workshops.aws/workshops/4b2fb166-b467-461b-bd30-782dd2a2265c/en-US) - A hands-on workshop to share live data across Amazon Redshift clusters
+* [Optimize Data Pattern using Data Sharing](https://www.wellarchitectedlabs.com/sustainability/300_labs/300_optimize_data_pattern_using_redshift_data_sharing/) - A hands-on workshop using data sharing to reduce the provisioned storage required to support your workload
 
 ### Data APIs
 
@@ -123,6 +126,11 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 * [Amazon Redshift Plugin for Grafana](https://grafana.com/grafana/plugins/grafana-redshift-datasource/) - Redshift plugin for Grafana.
 
 ## Security and Authentication
+### General Security
+*General resources for Redshift's security*
+* [AWS Summit NY 2022 - Amazon Redshift Security Enhancements](https://www.youtube.com/watch?v=PPbmGLmivOA) - A video session walkthing through authentication, access control, audit, and encryption
+* [AWS Config Rules for Redshift Security](https://github.com/awslabs/aws-config-rules/blob/master/aws-config-conformance-packs/Security-Best-Practices-for-Redshift.yaml) - An [AWS Config Rules](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html) [conformance pack](https://docs.aws.amazon.com/config/latest/developerguide/conformance-packs.html) to apply Amazon Redshift's security best practices
+
 ### Single Sign On (SSO)
 *Integration with SSO providers*
 
@@ -130,6 +138,21 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 * [Federate Amazon Redshift Access with Microsoft Azure AD SSO](https://aws.amazon.com/blogs/big-data/federate-amazon-redshift-access-with-microsoft-azure-ad-single-sign-on/) - A blog post describing how to federate Amazon Redshift access with Microsoft Azure AD single sign-on
 * [Federate SSO Access to Amazon Redshit with Okta](https://aws.amazon.com/blogs/big-data/federate-single-sign-on-access-to-amazon-redshift-query-editor-v2-with-okta/) - A blog post describing how to federate single sign-on access to Amazon Redshift query editor v2 with Okta.
 * [Federate Access to Your Amazon Redshift cluster with Active Directory Federation Services](https://aws.amazon.com/blogs/big-data/federate-access-to-your-amazon-redshift-cluster-with-active-directory-federation-services-ad-fs-part-1/) - A 3-part blog post describing how to federate access to Amazon Redshift cluster with Active Directory Federation Services (AD FS).
+
+### Role Based Access Control (RBAC)
+*Using role-based access control (RBAC) to manage database permissions*
+* [Simplify Management of Database Privileges in Amazon Redshift](https://aws.amazon.com/blogs/big-data/simplify-management-of-database-privileges-in-amazon-redshift-using-role-based-access-control/) - A blog post providing a step-by-step guide to setting up role based access control
+* [Introducing Role Based Access Control (RBAC) in Amazon Redshift](https://www.youtube.com/watch?v=IhHQ7mZ-tp4) - A video providing an overview and step-by-step guide to setting up role based access control
+
+### Row Level Security (RLS)
+*Using row-level security (RLS) to gain granular access control*
+* [Achieve Fine-Grained Data Security with Row-Level Access Control](https://aws.amazon.com/blogs/big-data/achieve-fine-grained-data-security-with-row-level-access-control-in-amazon-redshift/) - A blog post providing a step-by-step guide to setting up row level security
+* [AWS Summit NY 2022 - Amazon Redshift Security Enhancements]()
+
+## Cost Optimization
+*Tools and resources to help reduce Redshift cost*
+* [Cost Optimization Guidelines for Amazon Redshift](https://d1.awsstatic.com/whitepapers/amazon-redshift-cost-optimization.pdf) - A white paper of best-practices to optimize Redshift's cost
+* [Query to Analyze Redshift's Cost and Usage Report (CUR)](https://wellarchitectedlabs.com/cost/300_labs/300_cur_queries/queries/database/#amazon-redshift) - SQL query to analyze analyze Redshift's cost and usage using Amazon Athena  
 
 ## CI/CD
 
