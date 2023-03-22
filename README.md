@@ -33,7 +33,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 *Hands-on workshops to learn Redshift.*
 
-* [Amazon Redshift Deep Dive Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/380e0b8a-5d4c-46e3-95a8-82d68cf5789a/en-US) - **Workshop** A hands-on workshop covering topics such as: Data API, Spectrum,  Redshift ML, Lambda UDF, Query federation, SageMaker, Apache Hudi, QuickSight, PowerBI, Oracle/SQL Server migrations.
+* [Amazon Redshift Deep Dive Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/380e0b8a-5d4c-46e3-95a8-82d68cf5789a/en-US) - A hands-on workshop covering topics such as: Data API, Spectrum,  Redshift ML, Lambda UDF, Query federation, SageMaker, Apache Hudi, QuickSight, PowerBI, Oracle/SQL Server migrations.
 * [Redshift Immersion Labs Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US) - A hands-on workshop covering topics such as: ELT, Materialized Views, Data Sharing, and Redshift ML
 
 ## Key Features
@@ -41,7 +41,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 ### Amazon Redshift Serverless
 *[Amazon Redshift Serverless](#https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-whatis.html) resources*
 * [Amazon Redshift Serverless RSQL ETL Framework](https://github.com/aws-samples/amazon-redshift-serverless-rsql-etl-framework) - A Serverless ETL framework
-* [Self-service analytics with Amazon Redshift Serverless](https://www.youtube.com/watch?v=zGTxxOk4cBk) - A recorded session on getting started and best practices with Redshift Serverelss    
+* [Self-service analytics with Amazon Redshift Serverless](https://www.youtube.com/watch?v=zGTxxOk4cBk) - A video session on getting started and best practices with Redshift Serverelss    
 
 ### Data Sharing
 
@@ -128,7 +128,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 ## Security and Authentication
 ### General Security
 *General resources for Redshift's security*
-* [AWS Summit NY 2022 - Amazon Redshift Security Enhancements](https://www.youtube.com/watch?v=PPbmGLmivOA) - A video session walkthing through authentication, access control, audit, and encryption
+* [AWS Summit NY 2022 - Amazon Redshift Security Enhancements](https://www.youtube.com/watch?v=PPbmGLmivOA) - A video session covering authentication, access control, audit, and encryption
 * [AWS Config Rules for Redshift Security](https://github.com/awslabs/aws-config-rules/blob/master/aws-config-conformance-packs/Security-Best-Practices-for-Redshift.yaml) - An [AWS Config Rules](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html) [conformance pack](https://docs.aws.amazon.com/config/latest/developerguide/conformance-packs.html) to apply Amazon Redshift's security best practices
 
 ### Single Sign On (SSO)
