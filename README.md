@@ -3,7 +3,7 @@
 A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 - [Awesome Redshift](#awesome-redshift)
-    - [General Workshops](#workshops)
+    - [General Workshops](#general-workshops)
     - [Key Features](#key-features)
         - [Amazon Redshift Serverless](#amazon-redshift-serverless)
         - [Data Sharing](#data-sharing)
@@ -138,7 +138,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 * [Best Practices for Leveraging Amazon Redshift and dbt](https://d1.awsstatic.com/products/Redshift/Amazon-Redshift-dBT-Best-Practice_paper.pdf) - A white-paper covering best practices and performance tuning when using dbt and Amazon Redshift.
 * [Using DBT with Amazon Redshift Workshop](https://catalog.workshops.aws/dbt-cli-and-amazon-redshift/en-US) - A hands on workshop on integrating [DBT](https://github.com/dbt-labs/dbt-redshift) and Redshift.
 
-### [Grafana](grafana.com)
+### [Grafana](https://grafana.com)
 * [Amazon Redshift Plugin for Grafana](https://grafana.com/grafana/plugins/grafana-redshift-datasource/) - Redshift plugin for Grafana.
 
 ### [AWS Glue](https://aws.amazon.com/glue/)
