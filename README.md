@@ -20,6 +20,9 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
         - [Pandas](#pandas)
         - [dbt](#dbt)
         - [Grafana](#grafana)
+        - [Apache Airflow](#apache-airflow)
+        - [SQLAlchemy](#sqlalchemy)
+        - [Querybook](#querybook)
         - [AWS Glue](#aws-glue)
         - [Amazon Location Service](#amazon-location-service)
     - [Security and Authentication](#security-and-authentication)
@@ -140,6 +143,15 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 ### [Grafana](https://grafana.com)
 * [Amazon Redshift Plugin for Grafana](https://grafana.com/grafana/plugins/grafana-redshift-datasource/) - Redshift plugin for Grafana.
+
+### [Apache Airflow](https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/connections/redshift.html)
+* [Amazon Redshift SQL Operator](https://airflow.apache.org/docs/apache-airflow-providers-amazon/2.4.0/operators/redshift.html) - An operator allowing Apache Airflow users to execute statements against Redshift in workflows.
+
+### [SQLAlchemy](https://www.sqlalchemy.org/)
+* [Use the Amazon Redshift SQLAlchemy dialect to interact with Amazon Redshift](https://aws.amazon.com/blogs/big-data/use-the-amazon-redshift-sqlalchemy-dialect-to-interact-with-amazon-redshift/) - A blog covering how to use the `sqlalchemy-redshift` dialect with SQLAlchemy.
+
+### [Querybook](https://www.querybook.org/)
+* [Adding Amazon Redshift Query engine to Querybook](https://www.querybook.org/docs/setup_guide/connect_to_query_engines/#step-by-step-guide) - A step by step guide showing how to add a Amazon Redshift query engine to Querybook.
 
 ### [AWS Glue](https://aws.amazon.com/glue/)
 * [Execute Amazon Redshift Commands using AWS Glue](https://github.com/aws-samples/amazon-redshift-commands-using-aws-glue) - A library to use a AWS Glue Python Shell Job to execute SQL scripts on Amazon Redshift.
