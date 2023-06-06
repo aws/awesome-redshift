@@ -22,6 +22,9 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
         - [Grafana](#grafana)
         - [AWS Glue](#aws-glue)
         - [Amazon Location Service](#amazon-location-service)
+        - [Apache Airflow](#apache-airflow)
+        - [SQLAlchemy](#sqlalchemy)
+        - [Querybook](#querybook)
     - [Security and Authentication](#security-and-authentication)
         - [General Security](#general-security)
         - [Single Sign On (SSO)](#single-sign-on-sso)
@@ -146,6 +149,15 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 
 ### [Amazon Location Service](https://aws.amazon.com/location/)
 * [Amazon Redshift User Defined Functions to Call Amazon Location Service APIs](https://github.com/aws-samples/amazon-redshift-location-user-defined-functions) - A library using Lambda-based User Defined Functions (UDF) to call Amazon Location Service APIs.
+
+### [Apache Airflow](https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/connections/redshift.html)
+* [Amazon Redshift SQL Operator](https://airflow.apache.org/docs/apache-airflow-providers-amazon/2.4.0/operators/redshift.html) - An operator allowing Apache Airflow users to execute statements against Redshift in workflows.
+
+### [SQLAlchemy](https://www.sqlalchemy.org/)
+* [Use the Amazon Redshift SQLAlchemy dialect to interact with Amazon Redshift](https://aws.amazon.com/blogs/big-data/use-the-amazon-redshift-sqlalchemy-dialect-to-interact-with-amazon-redshift/) - A blog covering how to use the `sqlalchemy-redshift` dialect with SQLAlchemy.
+
+### [Querybook](https://www.querybook.org/)
+* [Adding Amazon Redshift Query engine to Querybook](https://www.querybook.org/docs/setup_guide/connect_to_query_engines/#step-by-step-guide) - A step by step guide showing how to add a Amazon Redshift query engine to Querybook.
 
 ## Security and Authentication
 ### General Security
