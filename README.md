@@ -105,13 +105,14 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 *Tools and tips to measure and tune Redshift's performance.*
 
 * [Top 10 Redshift Performance Tuning Techniques](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-techniques-for-amazon-redshift/) - A blog post outlining performance tuning techniques.
-* [Simple Replay](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/SimpleReplay) - A library to record your queries and replay them on a different cluster to test performance.
-* [Node Configuration Compare](https://github.com/aws-samples/amazon-redshift-config-compare) - A library to compare performance of different cluster sizes and configurations by recording and replaying your queries (uses Simple Replay under the hood).
+* [Simple Replay](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/SimpleReplay) - A library to record your queries and replay them on a different cluster to test performance. (DEPRECATED: Use [Test Drive](https://github.com/aws/redshift-test-drive))
+* [Node Configuration Compare](https://github.com/aws-samples/amazon-redshift-config-compare) - A library to compare performance of different cluster sizes and configurations by recording and replaying your queries (uses Simple Replay under the hood). (DEPRECATED: Use [Test Drive](https://github.com/aws/redshift-test-drive))
 * [Admin Scripts](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/AdminScripts) - A collection of queries and scripts to inspect performance and other administrative tasks.
 * [Admin Views](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/AdminViews) - A collection of views to inspect performance and other adminstrative tasks.
 * [Benchmark Redshift Using TPC-DS and TPC-H](https://github.com/awslabs/amazon-redshift-utils/tree/master/src/CloudDataWarehouseBenchmark) - A collection of commands and queries to setup and run TPC-DS/TPC-H on Redshift.
 * [The adx-tpc-ds Benchmark Scripts](https://github.com/aws-samples/redshift-benchmarks/tree/main/adx-tpc-ds) - A library to benchmark Redshift without having to generate and load data 
 * [ClickBench - Compare Analytical DBMS](https://benchmark.clickhouse.com/) - A comparison of performance of various data warehouses and analytical DBMS.
+* [Test Drive](https://github.com/aws/redshift-test-drive) - A collection of utilities and automation to compare performance of different Redshift configurations for a given workload.
 
 ## Connectors and Drivers
 *Redshift connectors and drivers*
