@@ -122,6 +122,7 @@ A curated list of awesome Amazon Redshift libraries, utilities, and resources.
 * [Amazon Redshift Integration with Apache Spark on EMR and Glue](https://aws.amazon.com/blogs/aws/new-amazon-redshift-integration-with-apache-spark/) - Connecting to Redshift from Amazon EMR 6.9, EMR Serverless, and AWS Glue 4.0.
 * [Redshift Data Source for Apache Spark - Community Edition](https://github.com/spark-redshift-community/spark-redshift) - Connecting to Redshift from Apache Spark - community edition.
 * [Query Amazon Redshift with Databricks](https://docs.databricks.com/external-data/amazon-redshift.html) - Connecting to Redshift from Databricks Runtime.
+* [Beekeeper Studio](https://www.beekeeperstudio.io/db/redshift-client/) - A modern and easy to use database manager for connecting to and querying Redshift from the desktop; Redshift support is included in the free, open-source Community edition.
 
 ## Operations
 
